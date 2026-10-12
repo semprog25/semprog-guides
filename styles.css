@@ -98,3 +98,24 @@ details p{margin:10px 0 0;color:var(--muted)}
 .placeholder{background:#ffe1e1;color:#8a1010;padding:0 4px;border-radius:4px;font-weight:600}
 .legal .german{border-top:2px solid var(--line);margin-top:40px;padding-top:8px}
 .legal address{font-style:normal}
+
+/* single-character landing pages */
+.guide-page .wrap{max-width:480px}
+.guide-page .hero{padding:28px 0 8px}
+.guide-page .hero h1{max-width:none;font-size:clamp(1.6rem,6vw,2.1rem);margin:10px 0 8px}
+.guide-page .bio{color:var(--muted);margin:0 0 16px;font-size:1.05rem}
+.guide-page .cover{border-radius:var(--radius);border:1px solid var(--line);overflow:hidden;margin:0 0 18px;background:var(--surface)}
+.guide-page .cover img{width:100%;aspect-ratio:1132/1600;object-fit:cover}
+.guide-page .buy-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;margin:0 0 20px}
+.guide-page .buy-bar .btn{flex-shrink:0}
+.guide-page .guide-block{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:0 0 20px}
+.guide-page .guide-block h2{font-size:1.35rem;margin:0 0 10px}
+.guide-page .guide-block .summary{margin:0 0 12px}
+.guide-page .guide-block ul{margin:0 0 14px;padding-left:1.1em;color:var(--muted);font-size:.95rem}
+.guide-page .guide-block .note{font-size:.8rem;color:var(--muted);margin:0;border-top:1px dashed var(--line);padding-top:12px}
+.guide-page .ai-box{background:var(--accent-soft);border-radius:var(--radius);padding:14px 16px;margin:0 0 20px;font-size:.92rem;color:#5a4500}
+.guide-page .ai-box strong{color:var(--ink)}
+.guide-page .facts{list-style:none;padding:0;margin:0 0 20px;font-size:.95rem}
+.guide-page .facts li{margin:0 0 6px}
+.guide-page .facts li::before{content:"✓ ";color:var(--brand);font-weight:700}
