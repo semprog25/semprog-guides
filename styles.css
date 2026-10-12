@@ -120,3 +120,6 @@ details p{margin:10px 0 0;color:var(--muted)}
 .guide-page .facts li{margin:0 0 6px}
 .guide-page .facts li::before{content:"✓ ";color:var(--brand);font-weight:700}
 .price .vat{font-size:.8rem;font-weight:600;color:var(--muted)}
+.guide-page .lead{font-size:1.05rem;margin:0 0 14px}
+.guide-block.cta{text-align:center}
+.guide-block.cta .btn{margin-top:8px}
