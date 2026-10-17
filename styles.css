@@ -87,6 +87,7 @@ details p{margin:10px 0 0;color:var(--muted)}
 .site-footer a{color:#fff}
 .footer-links{display:flex;flex-wrap:wrap;gap:10px 20px;list-style:none;padding:0;margin:0 0 14px}
 .site-footer p{margin:6px 0}
+.site-footer .dev-credit{font-size:.82rem;color:#a9a39a;margin-top:12px}
 
 /* legal pages */
 .legal{max-width:780px;padding:32px 20px 48px}
